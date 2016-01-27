@@ -102,6 +102,7 @@ var Lightbox = React.createClass({
 
       var route = {
         type: 'LightboxImage',
+        showNavBar: false,
         component: ImageComponent,
         passProps: {
           children: children,
