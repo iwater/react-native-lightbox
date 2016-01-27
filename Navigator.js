@@ -121,6 +121,10 @@ var LightboxNavigator = React.createClass({
     }
   },
 
+  popToTop: function() {
+    return this._root.popToTop();
+  },
+    
   replace: function(route) {
     return this._root.replace(route);
   },
